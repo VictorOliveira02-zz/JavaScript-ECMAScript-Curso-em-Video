@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <style>
+        body {
+            background-color: rgb(79, 72, 180);
+            color: antiquewhite;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 name='titulo'>Inciando estudos sobre a DOM</h1>
+    <h2 class="subtitulo">JavaScript para iniciantes</h2>
+    <p id="result">Aqui vai o resultado</p>
+    <p>Aprendendo como manipular a <strong>DOM</strong> em JavaScript</p>
+    <div id="clicar">Clique Aqui</div>
+
+    <script>
+        // Pegando por marca
+        var paragrafo = window.document.getElementsByTagName('p')[0]
+        paragrafo.style.color = 'black'
+
+        // Pegadno por ID
+        var div = document.getElementById('clicar').style.background = 'purple'
+
+        // Pegando por name
+        var nome = document.getElementsByName('titulo')[0]
+        nome.innerText = "Aprendendo a usar a DOM"
+
+        //Pegando por classe
+        var sub = document.getElementsByClassName('subtitulo')[0]
+        sub.style.background = 'red'
+
+        //Pegando pelo seletor
+        var seletor = document.querySelector('p#result')
+        seletor.innerText = 'Resultado identificado'
+    </script>
+</body>
+
+</html>
