@@ -28,15 +28,10 @@ section {
   color: white;
 }
 
-#result {
-  color: rgb(211, 104, 33);
-}
-
-#contar {
+#tabuada {
   background-color: rgb(34, 224, 34);
-  padding: 8px;
-  margin: 5px;
-  border-radius: 8%;
+  padding: 0.1rem;
+  border-radius: 5%;
 }
 
 img {
