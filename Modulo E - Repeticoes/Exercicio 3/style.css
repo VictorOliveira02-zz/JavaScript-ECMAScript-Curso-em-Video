@@ -18,6 +18,7 @@ header {
 }
 
 section {
+  text-align: center;
   background: #000133;
   border-radius: 10px;
   padding: 15px;
@@ -31,7 +32,7 @@ section {
   color: rgb(211, 104, 33);
 }
 
-#button-verificar {
+#contar {
   background-color: rgb(34, 224, 34);
   padding: 8px;
   margin: 5px;
@@ -44,7 +45,7 @@ img {
   height: 300;
 }
 div {
-  text-align: center;
+  text-align: ;
   padding: 8px;
 }
 
