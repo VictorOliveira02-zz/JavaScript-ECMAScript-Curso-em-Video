@@ -28,21 +28,25 @@ section {
   color: white;
 }
 
-#result {
-  color: rgb(211, 104, 33);
+#table {
+  margin-top: 10px;
+  width: 200px;
+  height: 100px;
 }
-
-#contar {
+#but {
   background-color: rgb(34, 224, 34);
-  padding: 8px;
-  margin: 5px;
-  border-radius: 8%;
+  padding: 0.2rem;
+  border-radius: 6%;
+  margin-top: 0.5rem;
 }
-
 
 div {
   text-align: ;
   padding: 8px;
+}
+
+#result {
+  color: orangered;
 }
 
 footer {
